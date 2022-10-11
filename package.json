@@ -1,0 +1,37 @@
+{
+  "name": "goal-setter-api",
+  "version": "1.0.0",
+  "description": "a simple rest api apllication",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngigordon/goal-setter-api.git"
+  },
+  "keywords": [
+    "goals",
+    "api",
+    "restfull",
+    "backend"
+  ],
+  "author": "ngi gordon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ngigordon/goal-setter-api/issues"
+  },
+  "homepage": "https://github.com/ngigordon/goal-setter-api#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "mongoose": "^6.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

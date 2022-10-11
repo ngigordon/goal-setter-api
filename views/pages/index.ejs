@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goals API Demo</title>
+    <%- include ("../partials/hearder.ejs")%>
+    <link rel="stylesheet" href="stylesheet/main.css">
+</head>
+<body>
+   <header >
+    <h1 class="text-info text-center">Gordons API</h1>
+   </header> 
+   <section class="container">
+       <h2>
+           How my API works
+       </h2>
+       <div>
+        <h3 class="text-success">the varrious API calls below can be perform on the the RestAPI</h3>
+       </div>
+        <ul class="list-group">
+            <li class="list-group-item">
+                <h4>GET All goals in the database</h4>
+                <p>visit <b>http://localhost/api</b> by sending a GET request</p>
+            </li>
+            <li class="list-group-item">
+                <h4>POST a goal into the database</h4>
+                <p>visit <b>http://localhost/api</b>  by sending a POST request with the value as text</p>
+            </li>
+            <li class="list-group-item">
+                <h4>GET a single goal in the database</h4>
+                <p>visit <b>http://localhost/api/:id</b> by sending a GET request with the id of the goal you wanna delete from the database</p>
+            </li>
+            <li class="list-group-item">
+                <h4>Update a goal in the database</h4>
+                <p>visit <b>http://localhost/api/:id</b> and send a PUT request with the id of the goal with the new text</p>
+            </li>
+            <li class="list-group-item">
+                <h4>Delete  a goal in the database</h4>
+                <p>visit <b>http://localhost/api/:id</b> and send a DELETE request with the id of the goal you want to delete</p>
+            </li>
+        </ul>
+   </section>
+
+</body>
+</html>
